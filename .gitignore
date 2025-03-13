@@ -1,0 +1,12 @@
+# Python 
+__pycache__/
+src/cpc_py.egg-info/
+cpc_py.egg-info/
+dist/
+
+# pytest chache
+.pytest_cache/
+
+
+# venv
+testenv/

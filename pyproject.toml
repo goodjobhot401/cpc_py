@@ -1,0 +1,42 @@
+[project]
+name = "cpc_py"
+version = "1.0.0" 
+description = "A visually enhanced terminal application for real-time cryptocurrency price checks, K-line charts, and monitoring the total value of all virtual assets."
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+authors = [{ name = "Tom Yung", email = "goodjobhot@gmail.com" }]
+keywords = [
+  "python",
+  "crypto", 
+  "portfolio",
+  "terminal"
+]
+classifiers = [
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3.13"
+]
+dependencies = [
+  "requests>=2.0",
+  "plotext>=5.3.2",
+  "rich>=13.9.4"
+]
+readme = "README.md"
+
+[project.urls]
+    repository = "https://github.com/goodjobhot401/cpc_py"
+    documentation = "https://github.com/goodjobhot401/cpc_py/blob/main/Readme.md"
+
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+
+[project.scripts]
+cpc = "cpc.app:main"
+
+[tool.setuptools.packages.find] 
+where = ["src"]
+
