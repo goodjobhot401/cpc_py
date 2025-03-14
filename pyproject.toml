@@ -23,8 +23,9 @@ dependencies = [
 readme = "README.md"
 
 [project.urls]
-    repository = "https://github.com/goodjobhot401/cpc_py"
-    documentation = "https://github.com/goodjobhot401/cpc_py/blob/main/Readme.md"
+Homepage = "https://github.com/goodjobhot401/cpc_py"
+Issues = "https://github.com/goodjobhot401/cpc_py/issues"
+Documentation = "https://github.com/goodjobhot401/cpc_py/blob/main/Readme.md"
 
 [build-system]
 requires = [
