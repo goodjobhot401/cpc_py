@@ -1,6 +1,6 @@
 [project]
 name = "cpc_py"
-version = "1.0.0" 
+version = "1.0.1" 
 description = "A visually enhanced terminal application for real-time cryptocurrency price checks, K-line charts, and monitoring the total value of all virtual assets."
 license = { file = "LICENSE" }
 requires-python = ">=3.9"
