@@ -155,7 +155,7 @@ class USER_SERVICE():
 
         console = Console()
         table = Table(
-            title=f"[bold gold1]{user["name"]}[/bold gold1] total asset approx: [bold green]{total}[/bold green] usdt",
+            title=f"[bold gold1]{user['name']}[/bold gold1] total asset approx: [bold green]{total}[/bold green] usdt",
             header_style="bold magenta",
             show_lines=True)
 
@@ -164,9 +164,9 @@ class USER_SERVICE():
         for column in columns:
             style = ""
             if column == "Symbol":
-                style = " cyan"
+                style = "cyan"
             elif column == "Market Value":
-                style = " green"
+                style = "green"
             elif column == "Percentage":
                 style = "bold yellow"
             table.add_column(column, justify="left", style=style)
